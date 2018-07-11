@@ -5,4 +5,4 @@ while count < 500                   //判断约数数量
     up = sqrt(triNum);          
     count = sum(~mod(uint32(triNum), 1:uint32(up)))*2 - (up == floor(up));  //求出当前三角形数的约数数量
 end
-triNum
+triNum     //输出目标值
